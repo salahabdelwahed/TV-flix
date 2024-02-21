@@ -1,0 +1,182 @@
+let dataUpComing=[
+    {
+        id:Math.random(),
+        title:"Madame Web",
+        image:"https://image.tmdb.org/t/p/w342/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+        rate:5.4,
+        decr:"Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+        Starring:"Dakota Johnson, Sydney Sweeney, Isabela Merced, Celeste O'Connor, Tahar Rahim, Kerry Bishé, Adam Scott, Emma Roberts, Mike Epps, Zosia Mamet",
+        stream:"",
+        lang:"EN",
+        genre:"Adventure",
+        downlaod:"",
+        Directed:"S.J. Clarkson", 
+
+    },
+    {
+        id:Math.random(),
+        title:"Oppenheimer",
+        image:"https://image.tmdb.org/t/p/w342/ptpr0kGAckfQkJeJIt8st5dglvd.jpg",
+        rate:8.1,
+        decr:"The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+        Starring:"Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, Kenneth Branagh, Benny Safdie",
+        stream:"",
+        lang:"EN",
+        genre:"Drama",
+        downlaod:"",
+        Directed:"Christopher Nolan",
+    },
+    {
+        id:Math.random(),
+        title:"Land of Bad",
+        image:"https://image.tmdb.org/t/p/w342/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+        rate:7.1,
+        decr:"When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
+        Starring:"Liam Hemsworth, Russell Crowe, Luke Hemsworth, Ricky Whittle, Milo Ventimiglia, Daniel MacPherson, Chika Ikogwe, Robert Rabiah, George Burgess, Gunner Wright",
+        stream:"",
+        lang:"EN",
+        genre:"Action",
+        downlaod:"",
+        Directed:"William Eubank",
+    },
+    {
+        id:Math.random(),
+        title:"Sound of Freedom",
+        image:"https://image.tmdb.org/t/p/w342/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
+        rate:8.1,
+        decr:"The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
+        Starring:"Jim Caviezel, Mira Sorvino, Bill Camp, Gerardo Taracena, Kurt Fuller, José Zúñiga, Eduardo Verástegui, Scott Haze, Yessica Borroto Perryman, Gary Basaraba",
+        stream:"",
+        lang:"EN",
+        genre:"Action",
+        downlaod:"",
+        Directed:"Alejandro Gómez Monteverde",
+    },
+    {
+        id: Math.random(),
+        title: "The Marvels",
+        image:
+          "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+        rate: 6.3,
+        decr: "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+        Starring:"Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Samuel L. Jackson, Gary Lewis, Park Seo-jun, Zenobia Shroff, Mohan Kapur, Saagar Shaikh",
+        stream:"https://www.youtube.com/embed/wS_qbDztgVY" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Nia DaCosta"
+
+    }, 
+    {
+        id: Math.random(),
+        title: " The Beekeeper",
+        image:
+          "https://image.tmdb.org/t/p/w342/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+        rate: 7.3,
+        decr: "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+        Starring:"Jason Statham, Emmy Raver-Lampman, Bobby Naderi, Josh Hutcherson, Jeremy Irons, Taylor James, Phylicia Rashād, Jemma Redgrave, Minnie Driver, Sophia Feliciano",
+        stream:"https://youtu.be/SzINZZ6iqxY?t=1" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"David Ayer"
+    },
+    {
+        id: Math.random(),
+        title: " Badland Hunters",
+        image:
+          "https://image.tmdb.org/t/p/w342/24CL0ySodCF8bcm38xtBeHzHp7W.jpg",
+        rate: 6.8,
+        decr: "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
+        Starring:"Ma Dong-seok, Lee Hee-jun, Lee Jun-young, Roh Jeong-eui, Ahn Ji-hye, Park Ji-hoon, Jang Young-nam, Park Hyo-joon, Seong Byeong-suk, Jung Young-ju",
+        stream:"https://youtu.be/hKbo-ZKdSqw" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Heo Myeong-haeng"
+    },
+    {
+        id: Math.random(),
+        title: " Sixty Minutes",
+        image:
+          "https://image.tmdb.org/t/p/w342/aajCqg315CoJPu1NmgPCkbRjnl6.jpg",
+        rate: 7.0,
+        decr: "Desperate to keep custody of his daughter, a mixed martial arts fighter abandons a big match and races across Berlin to attend her birthday party.",
+        Starring:"Emilio Sakraya, Dennis Mojen, Marie Mouroum, Florian Schmidtke, Paul Wollin, Aristo Luis, Morik Heydo, Alain Blazevic, Harry Szovik, Árpád Antolik",
+        stream:"https://youtu.be/hKbo-ZKdSqw" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Oliver Kienle"
+    },
+    {
+        id: Math.random(),
+        title: "Freelance",
+        image:
+        "https://image.tmdb.org/t/p/w342/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
+        rate: 6.6,
+        decr: "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"John Cena, Alison Brie, Juan Pablo Raba, Alice Eve, Marton Csokas, Christian Slater, Julianne Arrieta, Molly McCann, Daniel Toro, Sebastián Eslava",
+        lang:"EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"Pierre Morel"
+    },
+    {
+        id: Math.random(),
+        title: "Silent Night",
+        image:
+        "https://image.tmdb.org/t/p/w342/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg",
+        rate: 6.6,
+        decr: "A tormented father witnesses his young son die when caught in a gang's crossfire on Christmas Eve. While recovering from a wound that costs him his voice, he makes vengeance his life's mission and embarks on a punishing training regimen in order to avenge his son's death.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"Joel Kinnaman, Kid Cudi, Harold Torres, Catalina Sandino Moreno, Valeria Santaella, Vinny O'Brien, Acoyani Chacon, Alejandro De Los Monteros, Angeles Woo, Robert 'Rock' Galotti",
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"John Woo"
+    },
+    {
+        id: Math.random(),
+        title: "Expend4bles",
+        image:
+          "https://image.tmdb.org/t/p/w342/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        rate: 6.4,
+        decr: "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"Jason Statham, Sylvester Stallone, 50 Cent, Megan Fox, Dolph Lundgren, Randy Couture, Iko Uwais, Andy García, Tony Jaa, Jacob Scipio",
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"Scott Waugh"
+    }, 
+    {
+        id: Math.random(),
+        title: "Due Justice",
+        image:
+          "https://image.tmdb.org/t/p/w342/35Uef7fz9ctYbJLXbJBCqvtttEQ.jpg",
+        rate: 6.8,
+        decr: "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"Jason Statham, Sylvester Stallone, 50 Cent, Megan Fox, Dolph Lundgren, Randy Couture, Iko Uwais, Andy García, Tony Jaa, Jacob Scipio",
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"Scott Waugh"
+    }, 
+    {
+        id:Math.random(),
+        title:"Venom",
+        image:"https://image.tmdb.org/t/p/w342/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+        rate:6.8,
+        decr:"Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+        Starring:"Tom Hardy, Michelle Williams, Riz Ahmed, Scott Haze, Reid Scott, Jenny Slate, Melora Walters, Woody Harrelson, Peggy Lu, Malcolm C. Murray",
+        stream:"",
+        lang:"EN",
+        genre:"action",
+        downlaod:"",
+        Directed:"Ruben Fleischer",
+    }
+]
+export default dataUpComing

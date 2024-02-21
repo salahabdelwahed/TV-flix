@@ -1,0 +1,47 @@
+.mycards{
+    width: 24%;
+    margin: 2%;
+}
+.mycards img {
+    width: 100%; 
+    border-radius: 20px;
+ 
+} 
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: white; 
+    font-size: 20px;
+} 
+p i{
+    color: gold;
+} 
+.movieUpcoming{
+    display: flex; 
+    flex-direction: column; 
+    height: 480px;
+} 
+.movieUpcoming h1 {
+    margin-left: 2%;
+    font-size: 28px;
+    margin-bottom: 4%;
+}
+.allCards{
+    display: flex; 
+    overflow: auto;
+    width: 100%; 
+
+} 
+.allCards::-webkit-scrollbar{
+    width: 0.7vw;
+}
+.allCards::-webkit-scrollbar-thumb{
+    background: hsla(250, 6%, 20%, 1); 
+    border-radius: 20px;
+} 
+.allCards::-webkit-scrollbar-track{
+    background-color:  hsla(220, 17%, 7%, 1); 
+    box-shadow:  0 0 2px inset;
+}

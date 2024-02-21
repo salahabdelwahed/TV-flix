@@ -1,0 +1,25 @@
+
+.nav{
+    width: 100%;
+    height: auto; 
+    position: fixed;
+    background: hsla(220, 17%, 7%, 1);
+}
+.nav-intro{
+    width: 85%;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex; 
+    justify-content: space-between;
+} 
+.search-btn{
+    display: flex;
+}
+.me-2{
+     background: hsla(250, 6%, 20%, 1) !important;
+}
+.btn{
+    width: 35% !important;
+}
+
+

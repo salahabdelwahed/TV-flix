@@ -1,0 +1,80 @@
+body{
+    background: hsla(220, 17%, 7%, 1);
+}
+.overaly{
+    width: 100%; 
+    margin: 10% auto; 
+    position: absolute;  
+    display: flex;
+}  
+h1{
+    color: white; 
+    font-size: 23px;
+}
+a{
+    text-decoration: none; 
+    color: hsla(250, 1%, 44%, 1); 
+    font-size: 18px;
+} 
+a:hover{
+color: white;
+} 
+.overaly-block1{
+    width: 25%; 
+
+}
+ ul{
+    position: fixed;
+    list-style: none;
+    padding-left: 8%; 
+    height: 400px;
+    width: 22%;
+    overflow-y: auto;
+
+}  
+ul::-webkit-scrollbar{
+    width: 0.7vw;
+}
+ul::-webkit-scrollbar-thumb{
+    background: hsla(250, 6%, 20%, 1); 
+    border-radius: 20px;
+} 
+ul::-webkit-scrollbar-track{
+    background-color:  hsla(220, 17%, 7%, 1); 
+    box-shadow:  0 0 2px inset;
+}
+li{
+    margin: 13px;
+} 
+.overaly-block2{
+    width: 75%; 
+    right: 0px;
+    position: fixed;
+    height: 500px;
+    background-color: hsla(250, 13%, 11%, 1);
+    border-radius: 50px 0 0 30px;
+    overflow-y: auto;
+}
+.overaly-block2::-webkit-scrollbar{
+    width: 0.7vw;
+}
+.overaly-block2::-webkit-scrollbar-thumb{
+    background: hsla(250, 6%, 20%, 1); 
+    border-radius: 20px;
+} 
+.overaly-block2::-webkit-scrollbar-track{
+    background-color:  hsla(220, 17%, 7%, 1); 
+    box-shadow:  0 0 2px inset;
+}
+.crous{ 
+    width: 100%; 
+    margin: 20px auto; 
+    border-radius: 500px !important;
+
+} 
+.w-100 {
+    border-radius: 50px;
+    padding: 21px; 
+    height: 480px;
+    width: 100%!important;
+}
