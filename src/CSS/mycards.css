@@ -1,5 +1,5 @@
 .mycards{
-    width: 24%;
+    width: 100%;
     margin: 2%;
 }
 .mycards img {
@@ -7,6 +7,10 @@
     border-radius: 20px;
  
 } 
+.Card-design{
+    width: 40%; 
+    margin: 1%;
+}
 .info{
     display: flex;
     justify-content: space-between;

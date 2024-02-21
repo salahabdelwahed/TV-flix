@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, Card, Carousel } from "react-bootstrap";
 import "../CSS/homePage.css"; 
-import "../CSS/mycards.css"
+import CardFilm from "./CardFilm.js"
 import dataUpComing from '../DB/dataUpcomingFilm.js'
+import { Carousel } from "react-bootstrap";
 
 
 function HomePage() {
@@ -100,20 +100,9 @@ function HomePage() {
         <div className="movieUpcoming">
          <h1>Upcoming Movies</h1>
         <div className="allCards"> 
-        <>
-         {dataUpComing.map((Movie)=>  
-          <Card className="mycards" key={Movie.id} >
-          <Card.Img variant="top" src={Movie.image} />
-          <Card.Body>
-            <Card.Title>{Movie.title}</Card.Title>
-            <Card.Text>
-             {Movie.rate}
-            </Card.Text>
-            <Button variant="primary">Watch Now</Button>
-          </Card.Body>
-        </Card>
-          )}
-          </>
+        {dataUpComing.map((Movie) => (
+          <CardFilm key={Movie.id} Movie={Movie} />
+        ))}
         </div>
         </div>
       </div>
