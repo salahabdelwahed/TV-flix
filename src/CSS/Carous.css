@@ -1,0 +1,28 @@
+.crous{ 
+    width: 100%; 
+    margin: 20px auto; 
+    border-radius: 500px !important;
+
+} 
+.Img{
+    opacity: 0.6;
+} 
+.crous-info{
+    display: flex ; 
+    flex-direction: column; 
+    align-content: flex-start; 
+}
+.crous-tilte{ 
+    top: 10;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.734);
+}
+.crous-decr{
+    color: hsla(250, 2%, 59%, 1);
+    font-size: 20px;
+    text-align: start;
+}
+.btn-x{
+    width: 20% !important;
+}

@@ -66,12 +66,7 @@ li{
     background-color:  hsla(220, 17%, 7%, 1); 
     box-shadow:  0 0 2px inset;
 }
-.crous{ 
-    width: 100%; 
-    margin: 20px auto; 
-    border-radius: 500px !important;
 
-} 
 .w-100 {
     border-radius: 50px;
     padding: 21px; 

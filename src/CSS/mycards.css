@@ -44,7 +44,7 @@ p i{
     height: 440px;
 } 
 .allCards::-webkit-scrollbar{
-    width: 0.2vw;
+    width: 0.7vw;
 } 
 .title{
     color: white;
