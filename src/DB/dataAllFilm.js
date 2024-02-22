@@ -4,7 +4,7 @@ let dataMovies=[
             id: Math.random(),
             title: "The Marvels",
             image:
-              "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+            "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
             rate: 6.3,
             decr: "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
             Starring:"Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Samuel L. Jackson, Gary Lewis, Park Seo-jun, Zenobia Shroff, Mohan Kapur, Saagar Shaikh",
@@ -19,7 +19,7 @@ let dataMovies=[
             id: Math.random(),
             title: " The Beekeeper",
             image:
-              "https://image.tmdb.org/t/p/w342/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "https://image.tmdb.org/t/p/w342/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
             rate: 7.3,
             decr: "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
             Starring:"Jason Statham, Emmy Raver-Lampman, Bobby Naderi, Josh Hutcherson, Jeremy Irons, Taylor James, Phylicia Rashād, Jemma Redgrave, Minnie Driver, Sophia Feliciano",
@@ -351,7 +351,7 @@ let dataMovies=[
             downlaod:"",
             Directed:"Alberto Corredor",
         },
-       
+
         {
             id:Math.random(),
             title:"M3GAN",

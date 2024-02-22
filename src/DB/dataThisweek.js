@@ -1,4 +1,4 @@
-let dataUpComing=[
+let dataThisWeek=[
     {
         id:Math.random(),
         title:"Madame Web",
@@ -203,4 +203,4 @@ let dataUpComing=[
         dure:"112m"
     }
 ]
-export default dataUpComing
+export default dataThisWeek

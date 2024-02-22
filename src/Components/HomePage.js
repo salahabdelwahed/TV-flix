@@ -2,10 +2,13 @@ import React from "react";
 import "../CSS/homePage.css"; 
 import CardFilm from "./CardFilm.js"
 import dataUpComing from '../DB/dataUpcomingFilm.js'
+import dataThisWeek from "../DB/dataThisweek.js"
+import dataTopTreending from "../DB/dataTopTreending.js";
 import { Carousel } from "react-bootstrap";
 
 
-function HomePage() {
+function HomePage() { 
+
   return (
     <div className="overaly">
       <div className="overaly-block1">
@@ -98,10 +101,26 @@ function HomePage() {
           </Carousel>
         </div> 
         <div className="movieUpcoming">
-         <h1>Upcoming Movies</h1>
+         <h1 className="head">Upcoming Movies</h1>
         <div className="allCards"> 
         {dataUpComing.map((Movie) => (
           <CardFilm key={Movie.id} Movie={Movie} />
+        ))}
+        </div>
+        </div>
+        <div className="thisweek">
+        <h1 className="head">This week</h1> 
+        <div className="allCards"> 
+        {dataThisWeek.map((film) => (
+          <CardFilm key={film.id} Movie={film} />
+        ))}
+        </div>
+        </div>
+        <div className="top treending">
+        <h1 className="head">Top treending</h1> 
+        <div className="allCards"> 
+        {dataTopTreending.map((movie) => (
+          <CardFilm key={movie.id} Movie={movie} />
         ))}
         </div>
         </div>

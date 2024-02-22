@@ -1,4 +1,4 @@
-let dataUpComing=[
+let dataTopTreending =[
     {
         id:Math.random(),
         title:"Madame Web",
@@ -202,5 +202,5 @@ let dataUpComing=[
         year:"2018",
         dure:"112m"
     }
-]
-export default dataUpComing
+] 
+export default dataTopTreending 
