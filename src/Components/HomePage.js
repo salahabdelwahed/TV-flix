@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import CardFilm from "./CardFilm.js";
 import dataUpComing from "../DB/dataUpcomingFilm.js";
 import dataThisWeek from "../DB/dataThisweek.js";
@@ -7,7 +7,9 @@ import { Button, Carousel } from "react-bootstrap";
 import "../CSS/homePage.css";
 import "../CSS/Carous.css";
 
-function HomePage() {
+function HomePage({ valueTitle,setGetDataFrom }) {
+  const [dataMovieState, setdataMovieState] = useState(dataUpComing);
+  setGetDataFrom(dataMovieState);
   return (
     <div className="overaly">
       <div className="overaly-block1">
@@ -60,19 +62,21 @@ function HomePage() {
         <div className="crous">
           <Carousel data-bs-theme="dark">
             <Carousel.Item>
-              <img 
+              <img
                 className=" Img d-block w-100"
                 src="https://image.tmdb.org/t/p/w1280/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg"
                 alt="First slide"
               />
               <Carousel.Caption className="crous-info">
-              <h5 className="crous-tilte">The Beekeeper</h5>
+                <h5 className="crous-tilte">The Beekeeper</h5>
                 <p className="crous-decr">
                   One man's campaign for vengeance takes on national stakes
                   after he is revealed to be a former operative of a powerful
                   and clandestine organization known as Beekeepers...
-                </p> 
-                <Button className='btn-x' variant="danger">Watch Now</Button>
+                </p>
+                <Button className="btn-x" variant="danger">
+                  Watch Now
+                </Button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -82,13 +86,15 @@ function HomePage() {
                 alt="Second slide"
               />
               <Carousel.Caption className="crous-info">
-                <h5  className="crous-tilte">The Marvels</h5>
-                <p  className="crous-decr">
+                <h5 className="crous-tilte">The Marvels</h5>
+                <p className="crous-decr">
                   Carol Danvers, aka Captain Marvel, has reclaimed her identity
                   from the tyrannical Kree and taken revenge on the Supreme
                   Intelligence...
                 </p>
-                <Button className='btn-x' variant="danger">Watch Now</Button>
+                <Button className="btn-x" variant="danger">
+                  Watch Now
+                </Button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -99,21 +105,30 @@ function HomePage() {
               />
               <Carousel.Caption className="crous-info">
                 <h5 className="crous-tilte">Badland Hunters</h5>
-                <p  className="crous-decr">
+                <p className="crous-decr">
                   After a deadly earthquake turns Seoul into a lawless badland,
                   a fearless huntsman springs into action to rescue...
                 </p>
-                <Button className='btn-x' variant="danger">Watch Now</Button>
+                <Button className="btn-x" variant="danger">
+                  Watch Now
+                </Button>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
         <div className="movieUpcoming">
-          <h1 className="head">Upcoming Movies</h1>
+          <h1 className="head">UpComing Movies</h1>
           <div className="allCards">
-            {dataUpComing.map((Movie) => (
-              <CardFilm key={Movie.id} Movie={Movie} />
-            ))}
+         
+            {dataMovieState
+              .filter((Movie) =>
+                Movie.title
+                .toLocaleLowerCase()
+                .includes(valueTitle.toLocaleLowerCase())  
+              )
+              .map((Movie) => (
+                <CardFilm key={Movie.id} Movie={Movie} />
+              ))} 
           </div>
         </div>
         <div className="thisweek">

@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS/Navbar.css";
 import { Button, Form } from "react-bootstrap";
 
-const Navb = () => {
+const Navb = ({setValueTitle}) => {
   return (
     <>
       <div className="nav">
@@ -13,7 +13,8 @@ const Navb = () => {
               type="search"
               placeholder="Search"
               className="me-2"
-              aria-label="Search"
+              aria-label="Search" 
+              onChange={(e) => setValueTitle(e.target.value)}
             />
             <Button className="btn" variant="danger">Sing In</Button>{" "}
           </div>

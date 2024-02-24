@@ -1,134 +1,122 @@
 let dataMovies=[
     //Action Movies 
-        {
-            id: Math.random(),
-            title: "The Marvels",
-            image:
-            "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
-            rate: 6.3,
-            decr: "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
-            Starring:"Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Samuel L. Jackson, Gary Lewis, Park Seo-jun, Zenobia Shroff, Mohan Kapur, Saagar Shaikh",
-            stream:"https://www.youtube.com/embed/wS_qbDztgVY" ,
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
-            Directed:"Nia DaCosta"
-
-        }, 
-        {
-            id: Math.random(),
-            title: " The Beekeeper",
-            image:
-            "https://image.tmdb.org/t/p/w342/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
-            rate: 7.3,
-            decr: "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-            Starring:"Jason Statham, Emmy Raver-Lampman, Bobby Naderi, Josh Hutcherson, Jeremy Irons, Taylor James, Phylicia Rashād, Jemma Redgrave, Minnie Driver, Sophia Feliciano",
-            stream:"https://youtu.be/SzINZZ6iqxY?t=1" ,
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
-            Directed:"David Ayer"
-        },
-        {
-            id: Math.random(),
-            title: " Badland Hunters",
-            image:
-              "https://image.tmdb.org/t/p/w342/24CL0ySodCF8bcm38xtBeHzHp7W.jpg",
-            rate: 6.8,
-            decr: "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
-            Starring:"Ma Dong-seok, Lee Hee-jun, Lee Jun-young, Roh Jeong-eui, Ahn Ji-hye, Park Ji-hoon, Jang Young-nam, Park Hyo-joon, Seong Byeong-suk, Jung Young-ju",
-            stream:"https://youtu.be/hKbo-ZKdSqw" ,
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
-            Directed:"Heo Myeong-haeng"
-        },
-        {
-            id: Math.random(),
-            title: " Sixty Minutes",
-            image:
-              "https://image.tmdb.org/t/p/w342/aajCqg315CoJPu1NmgPCkbRjnl6.jpg",
-            rate: 7.0,
-            decr: "Desperate to keep custody of his daughter, a mixed martial arts fighter abandons a big match and races across Berlin to attend her birthday party.",
-            Starring:"Emilio Sakraya, Dennis Mojen, Marie Mouroum, Florian Schmidtke, Paul Wollin, Aristo Luis, Morik Heydo, Alain Blazevic, Harry Szovik, Árpád Antolik",
-            stream:"https://youtu.be/hKbo-ZKdSqw" ,
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
-            Directed:"Oliver Kienle"
-        },
-        {
-            id: Math.random(),
-            title: "كيرة والجن",
-            image:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgc7PQMUO-bK5i4q_-w1VB6m6uyCKXYd4QN7U6QExWqov9LY7NHcQcAROW6v4uo2_kvY&usqp=CAU",
-            rate: 7.9,
-            decr: "يرصد الفيلم حالة الغليان التي كانت يموج بها الشارع المصري بالتزامن مع اندلاع ثورة 1919، وهو الحدث الكبير الذي يوحد مصائر أحمد عبدالحي كيرة وعبدالقادر الجن ليشتركا في النضال ضد المحتل اﻹنجليزي",
-            stream: "https://filelions.to/v/2j084znm7qsw",
-            lang: "AR",
-            genre: "action",
-            downlaod: "https://filelions.to/d/2j084znm7qsw",
-        },
-        {
-            id: Math.random(),
-            title: "Freelance",
-            image:
-              "https://image.tmdb.org/t/p/w342/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
-            rate: 6.6,
-            decr: "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
-            stream: "https://filelions.to/v/2j084znm7qsw",
-            starrring:"John Cena, Alison Brie, Juan Pablo Raba, Alice Eve, Marton Csokas, Christian Slater, Julianne Arrieta, Molly McCann, Daniel Toro, Sebastián Eslava",
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://filelions.to/d/2j084znm7qsw",
-        },
-        {
-            id: Math.random(),
-            title: "Freelance",
-            image:
-            "https://image.tmdb.org/t/p/w342/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
-            rate: 6.6,
-            decr: "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
-            stream: "https://filelions.to/v/2j084znm7qsw",
-            starrring:"John Cena, Alison Brie, Juan Pablo Raba, Alice Eve, Marton Csokas, Christian Slater, Julianne Arrieta, Molly McCann, Daniel Toro, Sebastián Eslava",
-            lang:"EN",
-            genre: "action",
-            downlaod: "https://filelions.to/d/2j084znm7qsw",
-            Directed:"Pierre Morel"
-        },
-        {
-            id: Math.random(),
-            title: "Silent Night",
-            image:
-            "https://image.tmdb.org/t/p/w342/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg",
-            rate: 6.6,
-            decr: "A tormented father witnesses his young son die when caught in a gang's crossfire on Christmas Eve. While recovering from a wound that costs him his voice, he makes vengeance his life's mission and embarks on a punishing training regimen in order to avenge his son's death.",
-            stream: "https://filelions.to/v/2j084znm7qsw",
-            starrring:"Joel Kinnaman, Kid Cudi, Harold Torres, Catalina Sandino Moreno, Valeria Santaella, Vinny O'Brien, Acoyani Chacon, Alejandro De Los Monteros, Angeles Woo, Robert 'Rock' Galotti",
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://filelions.to/d/2j084znm7qsw",
-            Directed:"John Woo"
-        },
-        {
-            id: Math.random(),
-            title: "Expend4bles",
-            image:
-              "https://image.tmdb.org/t/p/w342/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-            rate: 6.4,
-            decr: "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
-            stream: "https://filelions.to/v/2j084znm7qsw",
-            starrring:"Jason Statham, Sylvester Stallone, 50 Cent, Megan Fox, Dolph Lundgren, Randy Couture, Iko Uwais, Andy García, Tony Jaa, Jacob Scipio",
-            lang: "EN",
-            genre: "action",
-            downlaod: "https://filelions.to/d/2j084znm7qsw",
-            Directed:"Scott Waugh"
-        }, 
-        {
+    {
+        id: Math.random(),
+        title: "The Marvels",
+        image:
+        "https://image.tmdb.org/t/p/w342/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+        rate: 6.3,
+        decr: "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+        Starring:"Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Samuel L. Jackson, Gary Lewis, Park Seo-jun, Zenobia Shroff, Mohan Kapur, Saagar Shaikh",
+        stream:"https://www.youtube.com/embed/wS_qbDztgVY" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Nia DaCosta",
+        year:"2023",
+        dure:"105m"
+    }, 
+    {
+        id: Math.random(),
+        title: " The Beekeeper",
+        image:
+        "https://image.tmdb.org/t/p/w342/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+        rate: 7.3,
+        decr: "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+        Starring:"Jason Statham, Emmy Raver-Lampman, Bobby Naderi, Josh Hutcherson, Jeremy Irons, Taylor James, Phylicia Rashād, Jemma Redgrave, Minnie Driver, Sophia Feliciano",
+        stream:"https://youtu.be/SzINZZ6iqxY?t=1" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"David Ayer",
+        year:"2024",
+        dure:"105m"
+    },
+    {
+        id: Math.random(),
+        title: " Badland Hunters",
+        image:
+        "https://image.tmdb.org/t/p/w342/24CL0ySodCF8bcm38xtBeHzHp7W.jpg",
+        rate: 6.8,
+        decr: "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
+        Starring:"Ma Dong-seok, Lee Hee-jun, Lee Jun-young, Roh Jeong-eui, Ahn Ji-hye, Park Ji-hoon, Jang Young-nam, Park Hyo-joon, Seong Byeong-suk, Jung Young-ju",
+        stream:"https://youtu.be/hKbo-ZKdSqw" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Heo Myeong-haeng",
+        year:"2024",
+        dure:"107m"
+    },
+    {
+        id: Math.random(),
+        title: " Sixty Minutes",
+        image:
+        "https://image.tmdb.org/t/p/w342/aajCqg315CoJPu1NmgPCkbRjnl6.jpg",
+        rate: 7.0,
+        decr: "Desperate to keep custody of his daughter, a mixed martial arts fighter abandons a big match and races across Berlin to attend her birthday party.",
+        Starring:"Emilio Sakraya, Dennis Mojen, Marie Mouroum, Florian Schmidtke, Paul Wollin, Aristo Luis, Morik Heydo, Alain Blazevic, Harry Szovik, Árpád Antolik",
+        stream:"https://youtu.be/hKbo-ZKdSqw" ,
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"Oliver Kienle",
+        year:"2024",
+        dure:"107m"
+    },
+    {
+        id: Math.random(),
+        title: "Freelance",
+        image:
+        "https://image.tmdb.org/t/p/w342/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
+        rate: 6.6,
+        decr: "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"John Cena, Alison Brie, Juan Pablo Raba, Alice Eve, Marton Csokas, Christian Slater, Julianne Arrieta, Molly McCann, Daniel Toro, Sebastián Eslava",
+        lang:"EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"Pierre Morel",
+        year:"2023",
+        dure:"108m"
+    },    
+    {
+        id: Math.random(),
+        title: "Silent Night",
+        image:
+        "https://image.tmdb.org/t/p/w342/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg",
+        rate: 6.6,
+        decr: "A tormented father witnesses his young son die when caught in a gang's crossfire on Christmas Eve. While recovering from a wound that costs him his voice, he makes vengeance his life's mission and embarks on a punishing training regimen in order to avenge his son's death.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"Joel Kinnaman, Kid Cudi, Harold Torres, Catalina Sandino Moreno, Valeria Santaella, Vinny O'Brien, Acoyani Chacon, Alejandro De Los Monteros, Angeles Woo, Robert 'Rock' Galotti",
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"John Woo",
+        year:"2023",
+        dure:"104m"
+    },
+    {
+        id: Math.random(),
+        title: "Expend4bles",
+        image:
+        "https://image.tmdb.org/t/p/w342/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        rate: 6.4,
+        decr: "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
+        stream: "https://filelions.to/v/2j084znm7qsw",
+        starrring:"Jason Statham, Sylvester Stallone, 50 Cent, Megan Fox, Dolph Lundgren, Randy Couture, Iko Uwais, Andy García, Tony Jaa, Jacob Scipio",
+        lang: "EN",
+        genre: "action",
+        downlaod: "https://filelions.to/d/2j084znm7qsw",
+        Directed:"Scott Waugh",
+        year:"2023",
+        dure:"103m"
+    }, 
+    {
             id: Math.random(),
             title: "Due Justice",
             image:
-              "https://image.tmdb.org/t/p/w342/35Uef7fz9ctYbJLXbJBCqvtttEQ.jpg",
+            "https://image.tmdb.org/t/p/w342/35Uef7fz9ctYbJLXbJBCqvtttEQ.jpg",
             rate: 6.8,
             decr: "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
             stream: "https://filelions.to/v/2j084znm7qsw",
@@ -136,48 +124,56 @@ let dataMovies=[
             lang: "EN",
             genre: "action",
             downlaod: "https://filelions.to/d/2j084znm7qsw",
-            Directed:"Scott Waugh"
-        }, 
-        {
+            Directed:"Scott Waugh",
+            year:"2023",
+            dure:"98m"
+    }, 
+    {
             id:Math.random(),
             title:"Venom",
             image:"https://image.tmdb.org/t/p/w342/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
             rate:6.8,
             decr:"Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
             Starring:"Tom Hardy, Michelle Williams, Riz Ahmed, Scott Haze, Reid Scott, Jenny Slate, Melora Walters, Woody Harrelson, Peggy Lu, Malcolm C. Murray",
-            stream:"",
+            stream:"https://movieus.fun/themes/v1//assets/movie.mp4",
             lang:"EN",
             genre:"action",
-            downlaod:"",
+            downlaod:"https://movieus.fun/en/loading?id=982940&title=Due%20Justice&action=register",
             Directed:"Ruben Fleischer",
-        },
+            year:"2023",
+            dure:"98m"
+    },
         //Adventure Movies
-        {
-            id: Math.random(),
-            title: "Aquaman and the Lost Kingdom",
-            image:
-            "https://image.tmdb.org/t/p/w342/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
-            rate: 6.9,
-            decr: "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.",
-            Starring:"Jason Momoa, Patrick Wilson, Yahya Abdul-Mateen II, Randall Park, Amber Heard, Nicole Kidman, Dolph Lundgren, Temuera Morrison, Indya Moore, Pilou Asbæk",
-            stream:"https://youtu.be/SzINZZ6iqxY?t=1" ,
-            lang: "EN",
-            genre: "Adventure",
-            downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
-            Directed:"James Wan"
-        },
-        {
-            id:Math.random(),
-            title:"Avatar: The Way of Water",
-            image:"https://image.tmdb.org/t/p/w342/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    {
+        id: Math.random(),
+        title: "Aquaman and the Lost Kingdom",
+        image:
+        "https://image.tmdb.org/t/p/w342/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
+        rate: 6.9,
+        decr: "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.",
+        Starring:"Jason Momoa, Patrick Wilson, Yahya Abdul-Mateen II, Randall Park, Amber Heard, Nicole Kidman, Dolph Lundgren, Temuera Morrison, Indya Moore, Pilou Asbæk",
+        stream:"https://youtu.be/SzINZZ6iqxY?t=1" ,
+        lang: "EN",
+        genre: "Adventure",
+        downlaod: "https://stellaruranus.com/?utm_medium=Special_Interest&utm_source=easyaffiliate&utm_campaign=1076&utm_content=LandingPage_Classic_Keyword&emid=65cb65b195182508e7088ba3&trs=65cb65b195182508e7088ba2&ext_publisher_id=1076&fn=The+Marvels+%5B1019+Mo%5D",
+        Directed:"James Wan",
+        year:"2023",
+        dure:"124m"
+    },
+    {
+        id:Math.random(),
+        title:"Avatar: The Way of Water",
+        image:"https://image.tmdb.org/t/p/w342/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
             rate:7.6,
             decr:"Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
             Starring:"Sam Worthington, Zoe Saldaña, Sigourney Weaver, Stephen Lang, Kate Winslet, Cliff Curtis, Joel David Moore, CCH Pounder, Edie Falco, Jemaine Clement",
-            stream:"",
+            stream:"https://movieus.fun/themes/v1//assets/movie.mp4",
             lang:"EN",
             genre:"Adventure",
-            downlaod:"",
+            downlaod:"https://movieus.fun/en/loading?id=76600&title=Avatar%3A%20The%20Way%20of%20Water&action=register",
             Directed:"James Cameron",
+            year:"2022",
+            dure:"192m"
         },
         {
             id:Math.random(),
@@ -186,11 +182,13 @@ let dataMovies=[
             rate:8.3,
             decr:"Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
             Starring:"Antonio Banderas, Salma Hayek Pinault, Harvey Guillén, Wagner Moura, Florence Pugh, Olivia Colman, Ray Winstone, Samson Kayo, John Mulaney, Da'Vine Joy Randolph",
-            stream:"",
+            stream:"https://movieus.fun/themes/v1//assets/movie.mp4",
             lang:"EN",
             genre:"Adventure",
-            downlaod:"",
+            downlaod:"https://movieus.fun/en/loading?id=315162&title=Puss%20in%20Boots%3A%20The%20Last%20Wish&action=register",
             Directed:"Joel Crawford",
+            year:"2022",
+            dure:"103m"
         },
         {
             id:Math.random(),
@@ -199,11 +197,13 @@ let dataMovies=[
             rate:7.3,
             decr:"In a world hit by a wave of mutations transforming humans into animals, François does everything he can to save his wife. As some of the creatures disappear into a nearby forest, he and their son Émile embark on a quest that will change their lives forever.",
             Starring:"Romain Duris, Paul Kircher, Adèle Exarchopoulos, Tom Mercier, Billie Blain, Xavier Aubert, Saadia Bentaïeb, Gabriel Caballero, Iliana Khelifa, Paul Muguruza",
-            stream:"",
+            stream:"https://movieus.fun/themes/v1//assets/movie.mp4",
             lang:"EN",
             genre:"Adventure",
-            downlaod:"",
+            downlaod:"https://movieus.fun/en/loading?id=943134&title=Le%20R%C3%A8gne%20animal&action=register",
             Directed:"Thomas Cailley",
+            year:"2023",
+            dure:"127m"
         },
         {
             id:Math.random(),
@@ -212,11 +212,13 @@ let dataMovies=[
             rate:7.8,
             decr:"Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
             Starring:"Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin, Stellan Skarsgård, Dave Bautista, Sharon Duncan-Brewster, Stephen McKinley Henderson, Zendaya, Chang Chen",
-            stream:"",
+            stream:"https://movieus.fun/themes/v1//assets/movie.mp4",
             lang:"EN",
             genre:"Adventure",
-            downlaod:"",
+            downlaod:"https://movieus.fun/en/loading?id=438631&title=Dune&action=register",
             Directed:"Denis Villeneuve",
+            year:"2021",
+            dure:"155m"
         },
         //Comedy Movies
         {
@@ -231,6 +233,8 @@ let dataMovies=[
             genre:"Comedy",
             downlaod:"",
             Directed:"Paul King",
+            year:"2023",
+            dure:"127m"
         },
         {
             id:Math.random(),

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navb from './Components/Navb'
 import HomePage from './Components/HomePage'
 
@@ -6,10 +6,12 @@ import HomePage from './Components/HomePage'
 
 
 const App = () => {
+  const [valueTitle, setValueTitle] = useState("");
+  const [getDataFrom, setGetDataFrom] = useState([]);
   return (
     <>
-      <Navb/>
-      <HomePage/> 
+      <Navb setValueTitle={setValueTitle}/>
+      <HomePage setGetDataFrom={setGetDataFrom} valueTitle={valueTitle}/> 
    
     </>
   )
